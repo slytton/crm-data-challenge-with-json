@@ -66,8 +66,12 @@ what their job titles are.  The original data looks like this:
 
 ## Challenge #1 - employees of companies
 
-Write some code that will return an array of companies,
-and the people who work for them.  For example:
+Write a function that will take in the raw data, and return an array of objects that contain
+
+- the company name
+- an `employees` property that points to an array of people and their titles
+
+Some example output is:
 
 ```js
 [
@@ -93,7 +97,7 @@ and the people who work for them.  For example:
 
 ## Challenge #2 - all employments
 
-Write some code that will return an array of all the employments,
+Write a function that will take in raw data and return an array of all the employments,
 including the person name, company name, person id, company id
 and title.
 
