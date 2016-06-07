@@ -34,7 +34,7 @@ const rawData = {
           "title": "Internal Mobility Executive"
         }
       ]
-    },
+    }
   ],
   "companies": [
     {
